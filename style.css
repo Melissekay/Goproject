@@ -25,13 +25,7 @@
     text-decoration: none;
 }
 
-.picture {
-    width: 600px;
-    height: 100px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-}
+
 .pictures{
     display:flex;
 }
@@ -63,16 +57,23 @@
     flex-direction: column;
     align-items: center;
 }
-.ligns {
-    background-color: rgb(231, 233, 235);
-}
+
+
 .button { 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.button {
-    transition: background-color 0.2s ease;
+
+.button button{
+    background-color:red ;
+    padding: 10px 20px;
+    
+}
+.button:hover button{
+     background-color: black;
+     color: white;
+     transition: background-color 0.2s ease;
 }
 .grid {
   display: grid;
@@ -122,4 +123,53 @@
     height: 100%;
     object-fit: cover;
 }
+.itexte {
+    flex:3; 
+    font-size: 20px; 
+    line-height: 1.5;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.seven {
+    display:flex;
+    justify-content: space-between;
+}
+.sligns {
+    
+    font-size: 20px; 
+    line-height: 1.5;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.slign1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbarf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+.navbarf {
+    background-color: rgb(9, 3, 85);
+    color: rgb(241, 240, 245);
+}
+
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+.links a {
+    color: rgb(2, 39, 75);
+    text-decoration: none;
+}
